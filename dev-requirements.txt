@@ -1095,9 +1095,9 @@ structlog==22.3.0 \
     --hash=sha256:b403f344f902b220648fa9f286a23c0cc5439a5844d271fec40562dbadbc70ad \
     --hash=sha256:e7509391f215e4afb88b1b80fa3ea074be57a5a17d794bd436a5c949da023333
     # via -r requirements.txt
-telepath==0.3 \
-    --hash=sha256:54f4b57232461bc67c54f63f437cb6d26843c189bae6b7ba8e4457f98d78e515 \
-    --hash=sha256:fbdbc6bdd9a4a5c2b230caae242fa6ba4994c9dbcfd780df9be63f2966feb034
+telepath==0.3.1 \
+    --hash=sha256:925c0609e0a8a6488ec4a55b19d485882cf72223b2b19fe2359a50fddd813c9c \
+    --hash=sha256:c280aa8e77ad71ce80e96500a4e4d4a32f35b7e0b52e896bb5fde9a5bcf0699a
     # via
     #   -r requirements.txt
     #   wagtail
@@ -1133,9 +1133,9 @@ vcrpy==4.2.1 \
     --hash=sha256:7cd3e81a2c492e01c281f180bcc2a86b520b173d2b656cb5d89d99475423e013 \
     --hash=sha256:efac3e2e0b2af7686f83a266518180af7a048619b2f696e7bad9520f5e2eac09
     # via -r dev-requirements.in
-wagtail==5.2.2 \
-    --hash=sha256:48e4c29b72b0e53eb47a3178d6b0f2c699aa284d3f3a2abfd2f04f578f44b55a \
-    --hash=sha256:b469a1b3cb3ab3e0c6a2c6f56b4a7890427609c0c12ca32322e26ab534547211
+wagtail==5.2.5 \
+    --hash=sha256:15800e17bd03244e023d2b9d70f02a51623982c3ef1ddb121925a884d625b5bb \
+    --hash=sha256:576f7690ca997b0e6d9fda9880594bf4bb904117b6edd5f2d7fbab570feee5a3
     # via
     #   -r requirements.txt
     #   wagtail-autocomplete
