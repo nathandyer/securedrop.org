@@ -9,8 +9,14 @@ WEB_URL_REGEX = re.compile(r"""\b((?:https?:\/\/)?(?:[\da-z\.-]+)\.(?:[a-z\.]{2,
 # landing page or its assets.  Note that failure to include a
 # User-Agent header can sometimes result in false negatives or other
 # unexpected scan results.
+#
+# Setting a custom user agent to identify the SecureDrop scanner
+# sometimes breaks the validation, due to bot preventation tactics
+# by some websites. To work around this, the User-Agent should be
+# set to a recent version of a well-supported browser on a popular
+# platform.
 HEADERS = {
-    'User-Agent': 'SecureDrop Landing Page Scanner 0.1.0',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:130.0) Gecko/20100101 Firefox/130.0',
 }
 
 
